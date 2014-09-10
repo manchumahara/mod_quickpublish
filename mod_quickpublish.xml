@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"    version="3.1"      client="administrator" method="upgrade">
+    <name>Quick Publish</name>
+    <author>Codeboxsr</author>
+    <creationDate>08092014</creationDate>
+    <copyright>Copyright (C) 2014. Codeboxr.com. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>info@codeboxr.com</authorEmail>
+    <authorUrl>www.codeboxsr.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Quick Article Publish</description>
+    <files>
+        <filename module="mod_quickpublish">mod_quickpublish.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+        <folder>form</folder>
+        <folder>assets</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">language\en-GB.mod_quickpublish.ini</language>
+        <language tag="en-GB">language\en-GB.mod_quickpublish.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
