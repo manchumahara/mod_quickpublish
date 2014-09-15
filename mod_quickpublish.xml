@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>info@codeboxr.com</authorEmail>
     <authorUrl>www.codeboxsr.com</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Quick Article Publish</description>
     <files>
         <filename module="mod_quickpublish">mod_quickpublish.php</filename>
@@ -19,8 +19,9 @@
         <folder>assets</folder>
     </files>
     <languages>
-        <language tag="en-GB">language\en-GB.mod_quickpublish.ini</language>
-        <language tag="en-GB">language\en-GB.mod_quickpublish.sys.ini</language>
+        <language tag="en-GB">language\en-GB\en-GB.mod_quickpublish.ini</language>        
+        <language tag="en-GB">language\en-GB\en-GB.mod_quickpublish.sys.ini</language>
+        <language tag="fr-FR">language\fr-FR\fr-FR.mod_quickpublish.ini</language>
     </languages>
     <config>
         <fields name="params">
