@@ -9,6 +9,9 @@
 # Technical Support:  Forum - http://codeboxr.com/product/joomla-quick-publish-admin-module
 -------------------------------------------------------------------------*/
 
+defined('_JEXEC') or die;
+
+
 class ModQuickPublishHelper{
     /**
      *
