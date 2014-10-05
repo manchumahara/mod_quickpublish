@@ -7,3 +7,5 @@ Joomla Quick Publish Admin Module is a admin side module for joomla developed fo
 
 
 For more details please check here http://codeboxr.com/product/joomla-quick-publish-admin-module
+
+Find it at Joomla Extension Directory http://extensions.joomla.org/extensions/administration/admin-navigation/28173
