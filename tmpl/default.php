@@ -173,7 +173,7 @@ if (JFile::exists($defaultparams)){
                                         }
                                         else{
                                             console.log(result.data);
-                                            $("#modquickpublish<?php echo $name; ?>").prepend('<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Success!</strong> Posted Successfully. <a target="_blank" href="'+editlink+result.data+'">Click here to edit</a></div>');
+                                            $("#modquickpublish<?php echo $name; ?>").prepend('<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert">&times;</button> <strong>Success!</strong> Posted Successfully. <a target="_parent" href="'+editlink+result.data+'">Click here to edit</a></div>');
 
                                             $("#modquickpublish<?php echo $name; ?>")[0].reset();
                                             $("#qpsubmitcomcontent").removeAttr("disabled");
